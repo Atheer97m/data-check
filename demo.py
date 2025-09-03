@@ -3,12 +3,13 @@ import math
 def circle_area(radius):
     """
     Calculate the area of a circle given its radius.
+    Returns 0 if the radius is negative.
 
-    Parameters:
-        radius (float): The radius of the circle. Must be non-negative.
+    Args:
+        radius (float): The radius of the circle.
 
     Returns:
-        float: The area of the circle if radius is non-negative, otherwise 0.
+        float: The area of the circle.
     """
     if radius < 0:
         return 0
