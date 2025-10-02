@@ -22,4 +22,3 @@ def circle_area(radius):
 
     # Calculate and return the area using π * r^2
     return math.pi * radius ** 2
-
